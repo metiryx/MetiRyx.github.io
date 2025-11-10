@@ -1,0 +1,60 @@
+/* site-dark.css - simple dark mode (add to docs/assets/css/) */
+
+:root{
+  --bg: #ffffff;
+  --text: #0b0b0b;
+  --muted: #555555;
+  --link: #0066cc;
+  --code-bg: #f5f5f5;
+}
+
+/* 2) dark variables (overrides) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0f14;
+    --text: #e6eef3;
+    --muted: #9ab0c1;
+    --link: #66b0ff;
+    --code-bg: #0e1620;
+  }
+}
+
+/* 3) explicit .dark class (overrides prefers) */
+.dark {
+  --bg: #0b0f14;
+  --text: #e6eef3;
+  --muted: #9ab0c1;
+  --link: #66b0ff;
+  --code-bg: #0e1620;
+}
+
+/* 4) apply variables site-wide */
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background .25s ease, color .25s ease;
+}
+
+/* links */
+a { color: var(--link); }
+
+/* code blocks */
+pre, code {
+  background: var(--code-bg);
+  color: var(--text);
+  padding: .25em .4em;
+  border-radius: 6px;
+}
+
+/* muted text */
+.small, .muted { color: var(--muted); }
+
+/* optional: toggle button style */
+#dark-toggle {
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: transparent;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
