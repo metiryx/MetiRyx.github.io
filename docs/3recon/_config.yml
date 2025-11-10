@@ -2,7 +2,7 @@ title: "3 Recon Tricks That Consistently Find Hidden Assets"
 description: "Practical and responsible recon techniques — crt.sh, JS recon, Wayback/GitHub pipeline (sanitized)."
 url: "https://metiryx.github.io"   
 baseurl: ""                                       
-theme: jekyll-theme-tactile                          
+theme: jekyll-theme-midnight                          
 markdown: kramdown
 permalink: /:title/
 
