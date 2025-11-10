@@ -17,6 +17,8 @@ image: "img/cover.png"
 # 3 Recon Tricks That Consistently Find Hidden Assets
 
 > Short, practical, and responsible techniques to uncover forgotten hosts, hidden endpoints, and juicy testing surfaces. Sanitize before running against third-party targets — use only against assets you own or have explicit permission.
+
+![Cover Image](img/cover.png)
 ## Table of Contents
 
 * [Overview](#overview)
