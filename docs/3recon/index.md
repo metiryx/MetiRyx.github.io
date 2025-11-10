@@ -5,8 +5,8 @@ layout: default
 ---
 
 <!-- Dark mode assets + toggle button -->
-<link rel="stylesheet" href="css/style.css">
-<script src="js/main.js" defer></script>
+<!-- <link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script> -->
 
 <div style="display:flex;gap:.5rem;align-items:center;margin-bottom:1rem;">
   <button id="dark-toggle" onclick="toggleDarkMode()">Toggle Dark</button>
