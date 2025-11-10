@@ -2,6 +2,7 @@
 title: "3 Recon Tricks That Consistently Find Hidden Assets"
 description: "Practical recon techniques to uncover hidden hosts, endpoints, and JS insights safely and responsibly."
 layout: default
+image: "img/cover.png"
 ---
 
 <!-- Dark mode assets + toggle button -->
