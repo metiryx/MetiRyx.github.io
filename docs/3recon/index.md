@@ -13,12 +13,17 @@ image: "img/cover.png"
   <button id="dark-toggle" onclick="toggleDarkMode()">Toggle Dark</button>
   <small class="muted">Toggle theme — also follows your OS by default.</small>
 </div> -->
+## Twitter Updates
+
+Follow me on Twitter for more tips and updates: [@matiryx](https://x.com/matiryx?s=11)
 
 # 3 Recon Tricks That Consistently Find Hidden Assets
 
 > Short, practical, and responsible techniques to uncover forgotten hosts, hidden endpoints, and juicy testing surfaces. Sanitize before running against third-party targets — use only against assets you own or have explicit permission.
 
 ![Cover Image](img/cover.png)
+
+
 ## Table of Contents
 
 * [Overview](#overview)
