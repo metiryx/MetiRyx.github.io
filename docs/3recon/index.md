@@ -1,10 +1,21 @@
-# 3 Recon Tricks That Consistently Find Hidden Assets
-
-> Short, practical, and responsible techniques to uncover forgotten hosts, hidden endpoints, and juicy testing surfaces.
-> Sanitize before publishing or running against third-party targets — use only against assets you own or have explicit permission to test.
-
+---
+title: "3 Recon Tricks That Consistently Find Hidden Assets"
+description: "Practical recon techniques to uncover hidden hosts, endpoints, and JS insights safely and responsibly."
+layout: default
 ---
 
+<!-- Dark mode assets + toggle button -->
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+
+<div style="display:flex;gap:.5rem;align-items:center;margin-bottom:1rem;">
+  <button id="dark-toggle" onclick="toggleDarkMode()">Toggle Dark</button>
+  <small class="muted">Toggle theme — also follows your OS by default.</small>
+</div>
+
+# 3 Recon Tricks That Consistently Find Hidden Assets
+
+> Short, practical, and responsible techniques to uncover forgotten hosts, hidden endpoints, and juicy testing surfaces. Sanitize before running against third-party targets — use only against assets you own or have explicit permission.
 ## Table of Contents
 
 * [Overview](#overview)
