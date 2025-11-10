@@ -8,10 +8,10 @@ layout: default
 <!-- <link rel="stylesheet" href="css/style.css">
 <script src="js/main.js" defer></script> -->
 
-<div style="display:flex;gap:.5rem;align-items:center;margin-bottom:1rem;">
+<!-- <div style="display:flex;gap:.5rem;align-items:center;margin-bottom:1rem;">
   <button id="dark-toggle" onclick="toggleDarkMode()">Toggle Dark</button>
   <small class="muted">Toggle theme — also follows your OS by default.</small>
-</div>
+</div> -->
 
 # 3 Recon Tricks That Consistently Find Hidden Assets
 
