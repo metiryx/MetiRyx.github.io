@@ -233,10 +233,6 @@ Suggested disclosure structure (short):
 ---
 
 ### Final notes
-
-* Want this as a ready GitHub Pages site (with `_config.yml` and nicer styling)? I can scaffold it (theme, header image, license).
-* Want a compact 5–7 tweet mini case (with sanitized command output) to cross-post on Twitter & GitHub? I can generate that too.
-
 [1]: https://crt.sh/?utm_source=chatgpt.com "Crt.sh"
 [2]: https://github.com/hakluke/hakrawler?utm_source=chatgpt.com "hakluke/hakrawler"
 [3]: https://archive.org/help/wayback_api.php?utm_source=chatgpt.com "Wayback Machine APIs"
